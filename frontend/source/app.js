@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact component={HomePage} />   // Set HomePage as the root route
+        <Route path="/" exact component={Homepage} />
         <Route path="/camera" component={CameraScreen} />
         <Route path="/meal-history" component={MealHistoryScreen} />
         <Route path="/settings" component={SettingsScreen} />
