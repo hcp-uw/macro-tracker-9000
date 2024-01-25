@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import HomePage from './screens/Homepage';          // Import HomePage
-import CameraScreen from './screens/CameraScreen';
-import MealHistoryScreen from './screens/MealHistoryScreen';
-import SettingsScreen from './screens/SettingsScreen';
+import HomePage from './screens/HomepagemePage
+import CameraScreen from './screens/CameraScreen
+import MealHistoryScreen from './screens/MealHistoryScreen
+import SettingsScreen from './screens/SettingsScreen
 
 function App() {
   return (
