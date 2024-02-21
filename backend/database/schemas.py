@@ -23,3 +23,6 @@ class UserCreate(UserBase):
 class User(UserBase):
     id: int
     meals: list[Meal] = []
+
+    class Config:
+        orm_mode = True
