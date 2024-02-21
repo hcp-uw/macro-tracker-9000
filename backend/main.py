@@ -2,13 +2,15 @@ from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import Optional
 from pydantic import BaseModel
+from sqlalchemy import select
+from database.models import User, Meal
+from database.database import engine, Base
 
 from .database import crud, models, schemas, SessionLocal, engine
 
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
-
 
 # Dependency
 def get_db():
@@ -39,7 +41,3 @@ def create_meal_for_user(
 ):
     
 def read_meals(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-
-
-
-
