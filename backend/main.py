@@ -8,6 +8,12 @@ from database.database import engine, Base
 
 from database import crud, models, schemas, SessionLocal, engine
 
+from dotenv import load_dotenv
+load_dotenv()
+import os
+import MySQLdb
+
+
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
