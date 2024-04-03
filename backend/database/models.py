@@ -1,8 +1,10 @@
 from typing import Optional
 from pydantic import BaseModel, Field
 from .database import Base
-from sqlalchemy import Boolean, Column, ForeignKey, Integer, String
+from sqlalchemy import Boolean, Column, ForeignKey, Integer, String, DateTime
 from sqlalchemy.orm import relationship
+
+# meals table grabs id key from users table, user can filter by date to get meals stored on that day
 
 class User(Base):
     __tablename__ = "users"
@@ -12,7 +14,7 @@ class User(Base):
 
 class Meal(Base):
     __tablename__ = "meals"
-    id = Column(Integer, primary_key=True)
-    name = Column(String(80), index=True)
+    id = Column(Integer, ForeignKey("users.id"))
+    date = Column(DateTime, index=True)
+    meal_name = Column(String(80), index=True)
     calories = Column(Integer, index=True)
-    owner_id = Column(Integer, key="users.id")
