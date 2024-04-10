@@ -1,3 +1,4 @@
+import datetime
 from typing import Optional
 from pydantic import BaseModel, Field
 from .database import Base
@@ -8,13 +9,16 @@ from sqlalchemy.orm import relationship
 
 class User(Base):
     __tablename__ = "users"
-    id = Column(Integer, primary_key=True)
+    id = Column(Integer, primary_key=True, index=True)
     username = Column(String(32), index=True)
     hashed_password = Column(String(256))
+    meals = relationship("Meal", back_populates="user")
 
 class Meal(Base):
     __tablename__ = "meals"
     id = Column(Integer, ForeignKey("users.id"))
-    date = Column(DateTime, index=True)
-    meal_name = Column(String(80), index=True)
-    calories = Column(Integer, index=True)
+    timestamp = Column(DateTime, default=datetime.utcnow)
+    meal_name = Column(String, index=True)
+    calories = Column(Integer)
+    user_id = Column(Integer, ForeignKey("users.id"))
+    user = relationship("Meal", back_populates="user")

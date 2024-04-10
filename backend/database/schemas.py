@@ -1,27 +1,26 @@
+import datetime
 from pydantic import BaseModel
 
-class MealBase(BaseModel):
-    name:str
-    calories: int | None = None
-
-class MealCreate(MealBase):
-    pass
-
-class Meal(MealBase):
+class Meal(BaseModel):
     id: int
-    owner_id: int
+    user_id: int
+    meal_name: str
+    calories: int
+    timestamp: datetime
 
     class Config:
         orm_mode = True
 
-class UserBase(BaseModel):
-    username: str
+class MealCreate(BaseModel):
+    user_id: int
+    meal_name: str
+    calories: int
+    timestamp: datetime
 
-class UserCreate(UserBase):
-    password: str
-
-class User(UserBase):
+class User(BaseModel):
     id: int
+    username: str
+    password: str
     meals: list[Meal] = []
 
     class Config:
