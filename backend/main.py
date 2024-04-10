@@ -55,3 +55,8 @@ def create_meal_for_user(
 def read_meals(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     meals = crud.get_meals(db, skip=skip, limit=limit)
     return meals
+
+@app.get("/users/{user_id}/meals/", response_model=list[schemas.Meal])
+def read_user_meals(user_id: int, db: Session = Depends(get_db)):
+    meals = crud.get_user_meals(db, user_id = user_id)
+    return meals
