@@ -70,21 +70,21 @@ def read_user_meals(user_id: int, db: Session = Depends(get_db)):
     meals = crud.get_user_meals(db, user_id = user_id)
     return meals
 
-SECRET_KEY = "your-secret-key" # where do we get this from
-ALGORITHM = "HS256" # wtf is this
-ACCESS_TOKEN_EXPIRE_MINUTES = 30 # review lateer
+SECRET_KEY = os.getenv("SECRET_KEY") # where do we get this from
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token") # why token
 
 def create_access_token(data: dict, expires_delta: timedelta | None = None):
     to_encode = data.copy()
     if expires_delta:
-        expire = datetime.utcnow() + expires_delta # fix this later
+        expire = datetime.now(datetime.UTC) + expires_delta # fix this later
     else:
-        expire = datetime.utcnow() + timedelta(minutes=15)
+        expire = datetime.now(datetime.UTC) + timedelta(minutes=15)
     to_encode.update({"exp": expire})
     encode_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM) # fix this shit later
-    return encoded_jwt
+    return encode_jwt
 
 # what are async functions for
 async def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):
@@ -102,7 +102,7 @@ async def get_current_user(token: str = Depends(oauth2_scheme), db: Session = De
             raise credentials_exception
         token_data = schemas.TokenData(username=username, user_id=user_id)
     except JWTError:
-        raise credentials_exception # where does this come from
+        raise credentials_exception
     user = crud.get_user_by_username(db, username=token_data.username)
     if user is None:
         raise credentials_exception
