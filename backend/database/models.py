@@ -16,7 +16,7 @@ class User(Base):
 
 class Meal(Base):
     __tablename__ = "meals"
-    id = Column(Integer, ForeignKey("users.id"))
+    id = Column(Integer, primary_key=True, index=True)
     timestamp = Column(DateTime, default=datetime.utcnow)
     meal_name = Column(String, index=True)
     calories = Column(Integer)
