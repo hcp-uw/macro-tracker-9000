@@ -4,7 +4,7 @@ from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 # WHO TF IS JOSE
 from jose import JWTError, jwt
 
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 from sqlalchemy.orm import Session
 from typing import Optional
@@ -33,43 +33,6 @@ def get_db():
     finally:
         db.close()
 
-@app.post("/users/", response_model=schemas.User)
-def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
-    db_user = crud.get_user_by_username(db, username=user.username)
-    if db_user:
-        raise HTTPException(status_code=400, detail="Username already registered")
-    return crud.create_user(db=db, user=user)
-
-@app.get("/users/", response_model=list[schemas.User])
-def read_users(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-    users = crud.get_users(db, skip=skip, limit=limit)
-    return users
-
-@app.get("/users/{user_id}", response_model=schemas.User)
-def read_user(user_id: int, db: Session = Depends(get_db)):
-    db_user = crud.get_user(db, user_id=user_id)
-    if db_user is None:
-        raise HTTPException(status_code=404, detail="User not found")
-    return db_user
-
-@app.post("/users/{user_id}/meals/", response_model=schemas.Meal)
-def create_meal_for_user(
-    user_id: int, meal: schemas.MealCreate, db: Session = Depends(get_db), current_user:schemas.User = Depends(get_current_user) # why tf is this not working
-):
-    if user_id != current_user.id:
-        raise HTTPException(status_code=403, detail="Unauthorized")
-    return crud.create_user_meal(db=db, meal=meal, user_id=user_id)
-    
-@app.get("/meals/", response_model=list[schemas.Meal])
-def read_meals(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-    meals = crud.get_meals(db, skip=skip, limit=limit)
-    return meals
- 
-@app.get("/users/{user_id}/meals/", response_model=list[schemas.Meal])
-def read_user_meals(user_id: int, db: Session = Depends(get_db)):
-    meals = crud.get_user_meals(db, user_id = user_id)
-    return meals
-
 SECRET_KEY = os.getenv("SECRET_KEY") # where do we get this from
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
@@ -79,9 +42,9 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token") # why token
 def create_access_token(data: dict, expires_delta: timedelta | None = None):
     to_encode = data.copy()
     if expires_delta:
-        expire = datetime.now(datetime.UTC) + expires_delta # fix this later
+        expire = datetime.now(timezone.utc) + expires_delta # fix this later
     else:
-        expire = datetime.now(datetime.UTC) + timedelta(minutes=15)
+        expire = datetime.now(timezone.utc) + timedelta(minutes=15)
     to_encode.update({"exp": expire})
     encode_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM) # fix this shit later
     return encode_jwt
@@ -123,3 +86,47 @@ async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends(
     access_token = create_access_token(
         data={"sub": user.username, "user_id": user.id}, expires_delta=access_token_expires
     )
+    return {"access_token": access_token, "token_type": "bearer"}
+
+@app.post("/users/", response_model=schemas.User)
+def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
+    db_user = crud.get_user_by_username(db, username=user.username)
+    if db_user:
+        raise HTTPException(status_code=400, detail="Username already registered")
+    return crud.create_user(db=db, user=user)
+
+# remove later
+@app.get("/users/", response_model=list[schemas.User])
+def read_users(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+    users = crud.get_users(db, skip=skip, limit=limit)
+    return users
+
+# either integrate with login or something
+@app.get("/users/{user_id}", response_model=schemas.User)
+def read_user(user_id: int, db: Session = Depends(get_db)):
+    db_user = crud.get_user(db, user_id=user_id)
+    if db_user is None:
+        raise HTTPException(status_code=404, detail="User not found")
+    return db_user
+
+
+@app.post("/users/{user_id}/meals/", response_model=schemas.Meal)
+def create_meal_for_user(
+    user_id: int, meal: schemas.MealCreate, db: Session = Depends(get_db), current_user:schemas.User = Depends(get_current_user) # why tf is this not working
+):
+    if user_id != current_user.id:
+        raise HTTPException(status_code=403, detail="Unauthorized")
+    return crud.create_user_meal(db=db, meal=meal, user_id=user_id)
+    
+# do not need
+@app.get("/meals/", response_model=list[schemas.Meal])
+def read_meals(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+    meals = crud.get_meals(db, skip=skip, limit=limit)
+    return meals
+ 
+# need
+@app.get("/users/{user_id}/meals/", response_model=list[schemas.Meal])
+def read_user_meals(user_id: int, db: Session = Depends(get_db)):
+    meals = crud.get_user_meals(db, user_id = user_id)
+    return meals
+
