@@ -2,3 +2,5 @@
 lightning_logs/
 MNIST/
 venv/
+data/
+Food2k_label/

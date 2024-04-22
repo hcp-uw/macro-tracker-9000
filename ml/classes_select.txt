@@ -1,0 +1,101 @@
+class,name,num_instances
+12,Brownie,500
+22,Potato salad,490
+24,Crepe,362
+65,Dumplings,490
+66,Tomato pasta,363
+78,Spicy shrimp,464
+87,Fried egg roll,167
+92,Smoked fish,993
+96,Fried shao mai,280
+104,Braised pork on rice,1887
+143,Griddle chicken,343
+152,Fried mushrooms,259
+139,Soy milk,625
+166,Baked potato chips,415
+167,Cream of mushroom soup,415
+178,Pineapple cake,454
+190,Beef ribs,434
+196,Fried tofu,448
+200,Enoki mushroom,330
+205,Beef jerky,1086
+215,Beef noodle soup,946
+233,Chicken rice,379
+260,Pickled cucumber,274
+284,Garlic bread,1449
+291,Organic fish,397
+374,Lava cake,306
+382,Wonton,1771
+383,Beef soup,976
+388,Fried chicken,559
+396,Cheese pizza,471
+404,Boiled egg,200
+405,Noodles soup,396
+410,Pork rice,422
+412,Fried eggs with pepper,281
+423,Grilled chicken breast,272
+469,Mango cake,464
+474,Rice cake,386
+485,Egg rice roll,1232
+488,Scrambled eggs with loofah,480
+508,Chicken bibimbap,270
+548,Baked scallops,486
+557,Boiled edamame,392
+560,Hot rice,297
+598,Spicy shrimp,371
+592,Celery,364
+618,Fried carrot cake,487
+628,Sliced noodles,416
+645,Fried tofu,493
+644,Banana pizza,400
+675,Flower love sushi,497
+685,Fried chicken,1357
+695,Hot pot ice cream,325
+699,Yogurt,938
+709,Garden chicken,851
+712,Pork floss,499
+711,Fried kidney,498
+745,Egg ham fried rice,439
+741,Curry rice,995
+363,Donkey burger,1772
+759,Mutton freeing,1238
+767,Halogen duck tongue,914
+778,Foil flower beetle powder,262
+784,Steamed buns,491
+783,Pan-seared foie gras,446
+790,Halogen rabbit head,1141
+808,Mushroom rape,354
+813,Finding nemo pizza,413
+819,Durian black glutinous rice,417
+988,Sakura roll,674
+1004,Fried tofu,662
+1034,Yakitori,274
+1042,Xiao long bao,1048
+1076,Duck intestines,237
+370,Ice powder,467
+1631,Saliva chicken,447
+1626,Sizzling frog,212
+1676,Tuna pizza,486
+1681,Chicken rack,487
+1999,Sauerkraut meat,237
+1876,Broiled river eel,269
+1873,Salted egg yolk baked pumpkin,923
+1863,Coca cola chicken wings,155
+1,Flavored snail meat,416
+19,Tobiko warship sushi,577
+18,Plate reinforcement,309
+83,Spicy shao pointed,351
+121,Fried chicken gizzards,659
+132,Flamingo cake,475
+137,Boneless chicken feet,500
+146,Fried lotus white with oil residue,364
+154,Smooth double skin milk,307
+174,Fruit pizza,499
+253,The five-star chicken nuggets,295
+257,Cold dried eggs,491
+287,Oreo ice cream,289
+293,Spicy fried escargot,451
+314,Grilled fatty intestine skewers,248
+326,Large rows of rice,333
+334,Mango black jelly,467
+335,Roast chicken,1259

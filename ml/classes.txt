@@ -1,0 +1,2001 @@
+class,name,num_instances
+0,Grilled beef tongue,293
+1,Flavored snail meat,416
+2,Napoleon cake,462
+3,Spicy chicken,388
+4,Noodles with pork chop,499
+5,Stir-fried pork with capers,238
+6,Bang bang chicken,861
+7,Hibiscus crab stick,341
+8,Tomato and egg flour pimple soup,843
+9,Grilled ribs,343
+10,Stir-fried lettuce,240
+11,Stir-fried clams with chili sauce,329
+12,Brownie,500
+13,Duck feet,1818
+14,Hand cake,1082
+15,Durian pancake,434
+16,Griddle rabbit,397
+17,Dried chiba bean curd,422
+18,Plate reinforcement,309
+19,Tobiko warship sushi,577
+20,Meringue puffs,462
+21,Fried pork with sauerkraut,475
+22,Potato salad,490
+23,Onion mixed fungus,742
+24,Crepe,362
+25,Crispy chicken bibimbap,673
+26,Golden cake,496
+27,Bean sprouts in soup,478
+28,Steamed fish head with double pepper,381
+29,Mung bean soup,1947
+30,Good harvest of coarse grains,211
+31,Crab fried rice cake,466
+32,Chicken casserole,381
+33,Pan-fried three stuffed treasures,230
+34,Firewood chicken,480
+35,Golden cod,336
+36,Waxiang chicken,375
+37,Corn with pine nuts,1033
+38,Secret jujube,765
+39,Pork with preserved vegetable,982
+40,Fried hairtail,601
+41,Yogurt purple rice,401
+42,Home-style bean curd,463
+43,Double chicken drumsticks,1010
+44,Fried crab with curry,513
+45,Fried cantonese sausage,242
+46,Roasted eggplant with garlic,628
+47,Shrimp skewers,999
+48,Wonton noodles,812
+49,Fried kidney flower with pig liver,424
+50,Vinegar cabbage,420
+51,Crab roe salad,475
+52,Fried eggplant,427
+53,Four red porridge,351
+54,Boiled fish,1304
+55,Grilled chicken feet,439
+56,Roast eggplants,433
+57,Kidney beans,316
+58,Straw hat cake,285
+59,Meicai bamboo shoots,355
+60,Cold pork cold head,485
+61,Braised duck gizzards,728
+62,Wasabi octopus,496
+63,Cheese baked sweet potatoes,399
+64,Fried twist,447
+65,Dumplings,490
+66,Tomato pasta,363
+67,Dried carob,473
+68,Toffee cake,406
+69,Crab yellow tofu,498
+70,Barbecue ribs,1259
+71,Strawberry sundae,787
+72,Pineapple rice,268
+73,Tin foil potatoes,233
+74,Stir-fried pork with rice white,445
+75,Black pepper pork chop rice,251
+76,Ribs rice,463
+77,Braised noodles with ribs,445
+78,Spicy shrimp,464
+79,Choy sum with garlic sauce,332
+80,Steamed chicken in lotus leaves,424
+81,Spicy cabbage fried rice,493
+82,Pineapple fritters shrimp,406
+83,Spicy shao pointed,351
+84,Scallion lamb,500
+85,Bazhen tofu,475
+86,Donkey meat,802
+87,Fried egg roll,167
+88,Gourd head bread in the soup,402
+89,Fish head tofu soup,300
+90,Fried spring rolls with three pieces of silk,398
+91,Braised beef brisket on rice,311
+92,Smoked fish,993
+93,Fried rice noodles with eggs,230
+94,Corn ribs soup,501
+95,Rib skewers,1019
+96,Fried shao mai,280
+97,Shredded potatoes with salad,896
+98,Glutinous rice balls with peanuts and sesame seed,500
+99,Fried potato chips with spicy cabbage,326
+100,Crab stick nigiri sushi,347
+101,Steamed pumpkin with red dates,563
+102,Coconut jelly,337
+103,Fried edamame with pickled vegetables,491
+104,Braised pork on rice,1887
+105,Braised chicken nuggets,367
+106,Preserved egg with hot pepper,267
+107,Green tea cake,384
+108,White rice,1422
+109,Pork liver noodle,405
+110,Spicy fish,409
+111,Sauerkraut beef,185
+112,Lotus pond side dishes,461
+113,Green pepper stir-fried dregs,321
+114,Fried bacon with bamboo shoots,347
+115,Grilled prawns,383
+116,Grilled duck intestine skewers,218
+117,Stir-fried beef fillet with tea mushroom,427
+118,Scrambled noodles with tomato and egg,360
+119,Snowflake chicken fillet,331
+120,Refreshing evergreen,290
+121,Fried chicken gizzards,659
+122,Scallion sea bass,324
+123,Red date and yam congee,428
+124,Coarse grain porridge,428
+125,Stewed chicken nuggets,449
+126,Spicy pork,373
+127,Pickled mustard,415
+128,Matcha mousse cake,197
+129,Snowflake cowboy bones,524
+130,Fried flower beetle,385
+131,Roast pork,455
+132,Flamingo cake,475
+133,Colorful face lift,379
+134,Cool coconut milk,429
+135,Tossed fish skin,442
+136,Sparerib noodles,981
+137,Boneless chicken feet,500
+138,Pork sauerkraut bun,429
+139,Soy milk,625
+140,Beef brisket noodle,421
+141,Five recipes of tender beef,407
+142,Fried pork with pleurotus eryngii,938
+143,Griddle chicken,343
+144,Red bean curd,470
+145,Custard bun,272
+146,Fried lotus white with oil residue,364
+147,Kimchi beef sushi,315
+148,Red bean double skin milk,500
+149,Mutton soup,1279
+150,Fire bun,566
+151,Beef and rice noodle soup,391
+152,Fried mushrooms,259
+153,Stir-fried shredded pork with garlic moss,391
+154,Smooth double skin milk,307
+155,Soy bean curd,454
+156,Beef claypot rice,970
+157,Fried chicken chop,491
+158,Refreshing lotus root slices,1389
+159,Fried shredded pancake,411
+160,Hot pot noodles,283
+161,Fried pork with chili,465
+162,Saute spicy chicken,436
+163,Pork with preserved vegetable rice,425
+164,Tiramisu cake,543
+165,Soy sauce fish,296
+166,Baked potato chips,415
+167,Cream of mushroom soup,415
+168,Baked fairy grass with Taro,862
+169,Baked corn with egg yolk,492
+170,Steam pot chicken,455
+171,Tomato and egg soup,1074
+172,River noodles in pig soup,445
+173,Matcha yellow peach cake,423
+174,Fruit pizza,499
+175,Sweet plum and sweet potato,981
+176,Cucumber preserved egg soup,427
+177,Scrambled egg with chopped chili pepper,343
+178,Pineapple cake,454
+179,Fried balls and radish,327
+180,Steamed abalone with garlic and vermicelli,401
+181,Overlord chicken strips,1252
+182,Braised chicken,421
+183,Three delicacies in casserole,521
+184,Crispy corn cob,381
+185,Steamed mandarin fish,370
+186,Chinese salad,459
+187,Hotbed chives with pork,299
+188,Clam tofu soup,905
+189,Tuna onigiri,298
+190,Beef ribs,434
+191,Spicy cabbage sushi roll,432
+192,Pickled mustard with shredded soup,322
+193,Red oil dumplings,409
+194,Fried shrimp,498
+195,Crispy radish skin,259
+196,Fried tofu,448
+197,Salted chicken,448
+198,Baked pig brain with tin foil,364
+199,Sour and spicy fish meal with grain,498
+200,Enoki mushroom,330
+201,Lotus root box,990
+202,Simmered dry noodles,404
+203,Pigeon soup,406
+204,Duck belly,469
+205,Beef jerky,1086
+206,Chestnut cream soup,477
+207,Plum kidney bean,380
+208,Red bean sago,216
+209,Lemon sauerkraut fish,411
+210,Sauce chili,256
+211,Squid crisp,300
+212,Spicy korean noodles,1147
+213,Steamed rice with mei cai meatloaf,416
+214,King crab,399
+215,Beef noodle soup,946
+216,Fried frog,459
+217,Mustard duck feet,476
+218,Fried squid,414
+219,Cucumber with pork ears,470
+220,Oily noodles,1644
+221,Red oil yuba,478
+222,Soup noodles,227
+223,Braised lamb,812
+224,Fried noodles,464
+225,Grilled salmon sushi,641
+226,Lotus seed pork belly soup,279
+227,Pickled fresh,373
+228,Pepper rabbit,438
+229,Beef tendon noodles,784
+230,Arctic bay sashimi,474
+231,Braised sheepâ€™s hoof,303
+232,Cucumber dip,392
+233,Chicken rice,379
+234,Sweet potato balls with taro,443
+235,Egg pancakes,414
+236,Braised pork with chestnut,450
+237,Stewed foie gras,494
+238,Pickled fish rice noodles,486
+239,Pork head meat mixed with cucumber,470
+240,Black rice porridge,426
+241,Griddle ribs,385
+242,Sauce beef,468
+243,Salt and pepper shrimp,475
+244,Stewed chicken soup with cordyceps flower,379
+245,Sour soup pork,374
+246,Braised pigeon,746
+247,Sausage pizza,800
+248,Candied sweet potatoes,487
+249,Shrimp sushi,598
+250,Fried noodles with seafood,364
+251,Griddle of pleurotus eryngii,423
+252,Fried beans,354
+253,The five-star chicken nuggets,295
+254,Broth bottom,398
+255,Pilaf,422
+256,Griddle beef with skin,1025
+257,Cold dried eggs,491
+258,Celery and peanuts,1035
+259,Sauerkraut chicken,292
+260,Pickled cucumber,274
+261,Potted cake,499
+262,Rice burger,356
+263,Mango fried yogurt,181
+264,Sawdust cup,441
+265,Fresh pot rabbit,243
+266,Mango sticky rice cake,311
+267,Honey roasted whole chicken,680
+268,Shredded cake,240
+269,Tenderloin skewers,336
+270,Salmon salad,348
+271,Dry roasted large yellow croaker,316
+272,Fish skin dumplings,210
+273,Signature chicken feet,318
+274,Pimple face,274
+275,Fried lamb chops,423
+276,Stir-fried squid whiskers,402
+277,Fried five spice roll,401
+278,Crock soup,409
+279,Tofu bubble,466
+280,Dried radish omelette,185
+281,Shredded potato burrito,500
+282,Scrambled eggs with green onion,396
+283,Mixed beef,565
+284,Garlic bread,1449
+285,Sauteed pork with green beans,285
+286,Braised vermicelli with chicken and mushroom,490
+287,Oreo ice cream,289
+288,Braised ham sausage,461
+289,Stir-fried pork with green peppers,496
+290,Sauerkraut vermicelli soup,438
+291,Organic fish,397
+292,Shredded squid,796
+293,Spicy fried escargot,451
+294,Honey chicken feet,278
+295,Cucumber mixed with garlic paste,440
+296,Watermelon smoothie,235
+297,Scallops and shrimp congee,373
+298,Multigrain bun,428
+299,Cold preserved egg,499
+300,Stir-fried lettuce with dace in black bean sauce,393
+301,Pickled cabbage powder,1274
+302,Stone egg skewers,249
+303,Sauteed beef fillet with hot green pepper,374
+304,Chicken breast salad,472
+305,Chocolate brown cake,324
+306,Cucumber fritters,367
+307,Steamed pork ribs,434
+308,Sea star,353
+309,Fried dried tofu,266
+310,Fried sweet potato balls,429
+311,Guiling paste,467
+312,Green vegetable tofu soup,305
+313,Mapo tofu,1262
+314,Grilled fatty intestine skewers,248
+315,Pan-fried pork bun,1569
+316,Braised turtle,496
+317,Cilantro tofu soup,374
+318,Fried rice with sauerkraut and egg,346
+319,Mustard pork noodles,287
+320,Polenta,494
+321,Pork noodles,382
+322,Spicy squid,169
+323,Ketchup surface,850
+324,Grilled cod,286
+325,Ice cream cone,484
+326,Large rows of rice,333
+327,Chestnut shortbread,1347
+328,Marinated goose wings,463
+329,Vegetarian abalone,427
+330,Ice cream ball,352
+331,Fried ham with cucumber,335
+332,Piggy paige cake,468
+333,Chicken sandwich,381
+334,Mango black jelly,467
+335,Roast chicken,1259
+336,Walnut buns,405
+337,Braised tofu in abalone sauce,488
+338,The oil meat,381
+339,Cheese ribs,381
+340,Fried dumplings,1427
+341,Sushi of floss,397
+342,Yongzhou blood duck,429
+343,Braised beef brisket en casserole,499
+344,Preserved rice,400
+345,Guokui,404
+346,Fried rice cake with chinese cabbage,393
+347,Stewed bean curd soup with crucian carp,575
+348,Smoothies,452
+349,Elbow,493
+350,Cheese baked scallops,339
+351,Sauerkraut bass,413
+352,Bean buns,858
+353,Durian pizza,429
+354,Boiled dried shreds,667
+355,Steamed chicken feet with black bean sauce,496
+356,Blueberry mousse,287
+357,Fried rice noodles with eggs,471
+358,Rice with duck legs,500
+359,Tofu with shallots,379
+360,Tomahaw,401
+361,Bacon sandwich,386
+362,Braised eggplant with bean curd,1572
+363,Donkey burger,1772
+364,Braised fish with soy sauce,499
+365,Rice covered with black pepper steak,473
+366,Italian noodle with meat sauce,467
+367,Rice with teriyaki drumstick,745
+368,Duck blood and bean-starchy vermicelli soup,1144
+369,Sauteed lettuce,539
+370,Ice powder,467
+371,Egg wrapped sausage,477
+372,Rainbow cake,796
+373,Blueberry smoothie,169
+374,Lava cake,306
+375,Stir fried vermicelli,455
+376,Fried shrimp,1014
+377,Fried squid flower,475
+378,Stewed croaker in brown sauce,410
+379,Quick-fried liver with distilled grains sauce,376
+380,Pita bread so awked in beef soup,407
+381,Vinegar turnip,472
+382,Wonton,1771
+383,Beef soup,976
+384,Muxu pork,496
+385,Seaweed sushi,785
+386,Steamed turbot,788
+387,Larimichthys,922
+388,Fried chicken,559
+389,Salted pork in jelly crystal trotter,457
+390,Flower cake,285
+391,Barbecued pork noodle rolls,294
+392,Potato chips on sizzling iron plate,329
+393,Fried bean sprouts with leek,426
+394,Sesame octopus,518
+395,Fried razor clam,1981
+396,Cheese pizza,471
+397,Pork with garlic sauce,495
+398,Scalded beef,415
+399,Sugar oil cake,281
+400,Braised pork with vermicelli,489
+401,Marinated quail eggs,323
+402,Chinese chestnut,321
+403,Spicy beef soup,360
+404,Boiled egg,200
+405,Noodles soup,396
+406,Braised pork,1080
+407,Rice with curry chicken chop,822
+408,Balsam pear scrambled eggs,1039
+409,Roast chicken wings,375
+410,Pork rice,422
+411,Fried bacon with lettuce,395
+412,Fried eggs with pepper,281
+413,Pork stomach,188
+414,Australian skewers,288
+415,Steamed rice with barbecued pork,292
+416,Bread soaked in fish head soup,466
+417,Shredded pork skin,651
+418,Soy sauce chicken,436
+419,Tea flavored shrimp,443
+420,Pita bread so awked in lamp soup,983
+421,Scramble egg,479
+422,Stewed chicken with mushroom,377
+423,Grilled chicken breast,272
+424,Oyster sauce beef,410
+425,Stewed spareribs with potatoes,261
+426,Marinated beef tripe,256
+427,Sesame paste,348
+428,Coconut rice,336
+429,Motherâ€™s hoof soup,401
+430,Roasted fresh catfish,272
+431,Fried pork with dried meat,1941
+432,Coconut chicken,535
+433,Steamed luffa with minced garlic,364
+434,Spareribs with taro,426
+435,Fried soybeans with luffa,464
+436,Cod fish steak,554
+437,Rice bag,418
+438,Pickle soup,434
+439,Braised pork with braised pork,654
+440,Fried shrimp,427
+441,Salt and pepper duck chin,1526
+442,Tofu pot,378
+443,Fried noodles with beef,425
+444,Baked prawns with salt,653
+445,Spicy hot pot,1764
+446,Pork chop soup with radish,498
+447,Powder soup,487
+448,Spicy fish,663
+449,Whitebait soup,963
+450,Mixed agaric with coriander,421
+451,Bamboo rice,270
+452,Fried noodles with beef,447
+453,Braised eggplant with meat,455
+454,Sugar pie,589
+455,Steamed bun with vegetables,387
+456,Crystal chicken,420
+457,Buddha jumps over the wall,1268
+458,Spareribs with brown sauce,370
+459,Silky chicken roll,432
+460,Fried rice with eel,434
+461,Grilled cold noodles,768
+462,Cabbage tofu soup,174
+463,Northeast big lift,441
+464,Grilled chiba tofu,767
+465,Fried konjac balls,590
+466,Spike potatoes,227
+467,Hot and sour chicken feet,236
+468,Stir fried lily with celery,414
+469,Mango cake,464
+470,Japanese tofu with tin foil,456
+471,Corn pudding crispy,428
+472,Cold taro powder,448
+473,Three fresh rice noodles,488
+474,Rice cake,386
+475,Sauce cake,497
+476,Duck soup,434
+477,Duomang small meatballs,398
+478,Fish ball soup,294
+479,Flour cake,378
+480,Walnut shortbread,1053
+481,Corn pumpkin porridge,390
+482,Shrimp and crab porridge,499
+483,Hot and sour cabbage,359
+484,Brown sugar ice powder,864
+485,Egg rice roll,1232
+486,Smoked sauce meat platter,578
+487,Pepper chicken,336
+488,Scrambled eggs with loofah,480
+489,Stir fried pork and bone with chili,553
+490,Corn grilled ribs,384
+491,Roasted yellow throat,426
+492,Barbecued pork,406
+493,Seaweed soup,433
+494,Steamed pork,186
+495,Pineapple sweet and sour pork,442
+496,Egg waffles,1297
+497,Camphor tea duck,498
+498,Sausage rice,409
+499,Mongolian roasted whole lamb,1321
+500,Kelp salad,1321
+501,Twice cooked beef,487
+502,Fried loofah,377
+503,Fried liangpi,429
+504,Fried bean curd,500
+505,Sweet com pie,937
+506,Beef rice roll,326
+507,Sausage,379
+508,Chicken bibimbap,270
+509,Beef offal pot,423
+510,Fillet steak,434
+511,Banana pancake,839
+512,Plum dried vegetable meat bun,383
+513,Smoked chicken skeleton,804
+514,Eight treasure rice,940
+515,Fish pot,409
+516,Yam pork ribs congee,308
+517,Arctic shellfish sushi,750
+518,Liwan boat porridge specialty,472
+519,Salami pizza,344
+520,Lotus leaf rice,798
+521,Salted fish and eggplant claypot,356
+522,Mutton string,1224
+523,Fried beef with bitter melon,475
+524,Stir-fried cauliflower,398
+525,Beef hot and sour noodle,420
+526,Cold bitter chrysanthemum,201
+527,Yellow throat,483
+528,Fried chicken with hot peppers,500
+529,Tiger cake,458
+530,Steamed egg dumplings,236
+531,Shredded cucumber,500
+532,Spicy noodles,364
+533,Grandmaâ€™s scrambled eggs,926
+534,Stir-fried chicken with rice pepper,364
+535,Smoked hairtail,236
+536,Sesame soy sauce lettuce,269
+537,Braised beef,500
+538,Haggis soup,641
+539,Braised pork ribs,469
+540,Cake box,494
+541,Taro chicken,499
+542,Tiger green peppers,500
+543,Spicy fried sea screw,313
+544,Called naan package meat,320
+545,Dried marinated orchid,311
+546,Sauteed bacon with peas,432
+547,Chicken skin skewers,563
+548,Baked scallops,486
+549,Scrambled eggs with chives,370
+550,Wooden barrel rice,445
+551,Noisette three kinds of meat,757
+552,Tofu rice noodles,409
+553,Chicken rack,1038
+554,Cold gluten,217
+555,Carbon baking bullfrog,216
+556,Spicy bullfrog,431
+557,Boiled edamame,392
+558,Yam spring rolls,769
+559,Fragrant fried sierra,256
+560,Hot rice,297
+561,Shredded cold papaya,517
+562,Golden fried chicken feet,392
+563,Winter melon pork ribs soup,868
+564,Salted pleurotus eryngii,491
+565,Grilled rice cake,299
+566,Eggplant rice with fish aroma,463
+567,Panda chocolate sundae,456
+568,Steamed noodles,672
+569,Millet mung bean porridge,398
+570,Purple potato porridge,308
+571,Duck liver,499
+572,Steamed pork ribs with glutinous rice,1243
+573,Longjing shrimp,486
+574,Cauliflower,432
+575,Pipa duck,526
+576,Braised beef noodles,434
+577,Chicken feet in vinegar,352
+578,Tempura,995
+579,Shar pei mousse cake,357
+580,Crispy rice potatoes,496
+581,Steamed spare ribs with taro,391
+582,Goat tripe,480
+583,Red bean porridge,934
+584,Egg noodles,532
+585,Braised pork roll,391
+586,Mango mousse cake,473
+587,Three shreds fried rice noodles,530
+588,Spiced boiled fire,383
+589,Fried rice with bacon and egg,304
+590,Griddle yellowbone fish,341
+591,Candied date zongzi,500
+592,Celery,364
+593,Mushroom chicken claypot rice,1095
+594,Steamed pumpkin with lily,797
+595,Tomato beef noodle,385
+596,Champion and porridge,332
+597,Crystal shrimp,440
+598,Spicy shrimp,371
+599,Egg yolk crisp,500
+600,Guogiao tofu,418
+601,Beggarâ€™s chicken,487
+602,Fried beef with hot pepper,368
+603,Vegetable and lean pork porridge,439
+604,Boiled white meat,308
+605,Adzuki bean fermented rice,325
+606,Braised eggplant,451
+607,Mushroom with garlic paste,346
+608,Fat rice roll,951
+609,Blueberry mashed potatoes,375
+610,Spinach with gluten,275
+611,Soup baby dishes,366
+612,Salmon flank sinew,1035
+613,Seafood pancake,862
+614,Fried rice cake,291
+615,Braised chicken with ginseng,828
+616,Millet porridge,434
+617,Silver carp,198
+618,Fried carrot cake,487
+619,Dried bamboo shoots and duck pot,349
+620,Garlic broccoli,899
+621,Pumpkin pie,456
+622,Potato wedges,467
+623,Donkey meat soup,347
+624,Miba,379
+625,Duck intestine fried rice,391
+626,Roasted bean skewers,306
+627,Tuna salad,1126
+628,Sliced noodles,416
+629,Smoked fish noodle,351
+630,Pineapple buns,493
+631,Ramen fried rice cake,433
+632,Three fresh powder,500
+633,Crispy sausage,472
+634,Quicksand bag,271
+635,Cranberry toast slices,400
+636,Ballast congee,455
+637,Baked bun,397
+638,Drunk crab claws,436
+639,Honey chicken wings,218
+640,Braised fish head,403
+641,Mango milk ice,217
+642,Lychee meat,333
+643,Pork feet rice,842
+644,Banana pizza,400
+645,Fried tofu,493
+646,Roasted pork with dried beans,404
+647,Fried vermicelli,1422
+648,Mango sago,422
+649,Garlic clove skewers,329
+650,Pig vegetable,361
+651,Duck leg,490
+652,Roll egg,295
+653,Three fresh ice powder,461
+654,Yellow clam,182
+655,Crispy potato grid,331
+656,Horseradish fungus,430
+657,Fried bacon with bamboo shoots,372
+658,Stir-fried green peppers,598
+659,Braised pork,431
+660,Marinated bullwhip,457
+661,Tripe soup powder,342
+662,Spicy cucumber,500
+663,Kimchi cake,440
+664,Fat intestine noodle,989
+665,Duck clavicle,184
+666,Cauliflower fried pork,499
+667,Fried tenderloin,413
+668,Steamed sea bass,695
+669,Salty bone soup,844
+670,Chestnut roast chicken,414
+671,Roasted dried tofu rolls,335
+672,Tiger egg,496
+673,Hand-shredded chicken,1391
+674,Egg pudding,316
+675,Flower love sushi,497
+676,Roast duck noodle sauce,432
+677,Sauteed beef with wild pepper,911
+678,Sesame sauce liangpi,1777
+679,Bacteria soup,263
+680,Grilled pork bone skewers,779
+681,Pork noodles with pickled vegetables,402
+682,Delicious crispy rice,159
+683,Egg yolk pork floss seaweed rice,370
+684,Shrimp shaomai,492
+685,Fried chicken,1357
+686,Corn grated with cheese,177
+687,Sour plum soup,394
+688,Hand catch seafood,457
+689,Small noodles,1235
+690,Fried wanton,1429
+691,Mushrooms and cabbage,337
+692,Mushroom chicken congee,422
+693,Sour soup dumplings,371
+694,Braised konjac,281
+695,Hot pot ice cream,325
+696,Mango salmon roll sushi,249
+697,Egg yolk lobster,463
+698,Plum dried vegetable biscuits,559
+699,Yogurt,938
+700,Curry pork chop rice,453
+701,Crispy bamboo shoots in chicken sauce,263
+702,Fried rice with ham,500
+703,Braised pork,459
+704,Fried cucumber with basil,326
+705,Tiger vegetables,289
+706,Tofu skin sushi,396
+707,Chinese yam lean meat porridge,500
+708,French lamb chops,403
+709,Garden chicken,851
+710,Tea tree mushroom ribs soup,395
+711,Fried kidney,498
+712,Pork floss,499
+713,Jade burned,497
+714,Pickled pepper fish skin,168
+715,Cold chicken feet,469
+716,Coriander with beef,713
+717,Fried fungus with yam,995
+718,Taste shrimp,484
+719,Fruit fishing,967
+720,Fried cuttlefish ball,264
+721,White porridge,456
+722,Cucumber mixed jellyfish,214
+723,Baked enoki mushrooms in tin foil,317
+724,Salt and pepper lobster,427
+725,Frozen tofu,429
+726,Seafood pimple soup,441
+727,Mixed sauce hot and sour noodles,513
+728,Honey yellow peach,385
+729,Rose ice powder,495
+730,Roasted shiitake mushrooms,259
+731,Spicy shrimp,985
+732,Diving fish,382
+733,Sugar fried hawthorn,447
+734,Mushroom crispy bamboo shoots,441
+735,Family portrait sushi,485
+736,Durian cheese pizza,448
+737,Whose mariko,451
+738,Soft-boiled egg,193
+739,Pan-fried long lee fish,259
+740,Grilled fish on paper,265
+741,Curry rice,995
+742,Hot and sour tripe soup,341
+743,Butyl five ren sauce,406
+744,Mango layer cake,411
+745,Egg ham fried rice,439
+746,Peony shrimp sashimi,288
+747,Radish beef,500
+748,Dry fans,493
+749,White cut saltwater duck,462
+750,Matcha smoothie,196
+751,Sour radish duck soup,413
+752,Pork with pickled vegetables,609
+753,Grilled mackerel,322
+754,Swiss roll cake,419
+755,Strawberry milk pudding,178
+756,Cold kelp root,462
+757,Sea oyster,425
+758,Grilled fish with sauerkraut,350
+759,Mutton freeing,1238
+760,Spicy duck jane,283
+761,Argentine red shrimp,360
+762,Tofu soup,363
+763,One shrimp for two,470
+764,Wild vegetable dumpling,294
+765,Kelp rib soup,851
+766,Fried pork chops,428
+767,Halogen duck tongue,914
+768,Lame claypot rice,1176
+769,Floss sushi,456
+770,Stir fried fungus with cabbage,437
+771,Durian cake,454
+772,Seaweed warship sushi,938
+773,Avocado salad,484
+774,Pure sausage,453
+775,Stir-fried fat intestine,319
+776,Purple rice porridge,432
+777,Brine geese,417
+778,Foil flower beetle powder,262
+779,Scrambled eggs with sauce,938
+780,Cornmeal buns,469
+781,Rice porridge,780
+782,Stir-fried long beans,742
+783,Pan-seared foie gras,446
+784,Steamed buns,491
+785,Black rice cake,243
+786,Fried eggplant box,309
+787,Chinese seaweed salad,489
+788,Roasted garlic naan,293
+789,Zongzi,215
+790,Halogen rabbit head,1141
+791,Green pepper shredded pork rice bowl,498
+792,Spiced rabbit head,1988
+793,Snow white juice with mango and black sticky rice,385
+794,Preserved egg and lean meat porridge,375
+795,Braised old goose,1113
+796,Sesame sauce noodles,428
+797,Orleans roasted whole leg,526
+798,Nougat,464
+799,The ring oil eel,420
+800,Oily baby cabbage,275
+801,Chicken chop rice,962
+802,Fried cheese chicken chop,288
+803,Braised pork ribs,295
+804,Griddle ribs and shrimp,386
+805,Spinach in soup,509
+806,Fried chicken with mushroom,451
+807,Old duck soup with tea tree mushrooms,938
+808,Mushroom rape,354
+809,Hot and sour fern root powder,477
+810,Stuffed gluten balls,386
+811,Sweet com on the cob,201
+812,Spare ribs pot,845
+813,Finding nemo pizza,413
+814,Shao powder,434
+815,Griddle shrimp,292
+816,Minced pork nigiri sushi,500
+817,Cooked tripe of sheep or swine,820
+818,Preserved egg with cucumber,317
+819,Durian black glutinous rice,417
+820,Yam and vegetable porridge,265
+821,Meatball soup,433
+822,Pork belly chicken,1189
+823,Pan-fried chicken chop,1476
+824,Salt and pepper pork,1524
+825,Clam and winter melon soup,415
+826,Chocolate poppy cake,420
+827,Fruit cream cake,438
+828,Spicy fried rice cake,1022
+829,Rose cake,477
+830,California roll sushi,502
+831,Hemp group,448
+832,Tonkotsu ramen,386
+833,Barbecued pork crisp,409
+834,Beef noodle soup,427
+835,Pancake,478
+836,Mutton vermicelli,863
+837,New orleans pizza,398
+838,Chicken bone skewers,230
+839,Eel congee,414
+840,Stew,488
+841,Diced carrot,340
+842,Fried cake,179
+843,Crystal shrimp dumpling,458
+844,Fried sliced pork with mushrooms,364
+845,Geoduck sashimi,311
+846,Red oil belly silk,391
+847,Eggplant claypot,397
+848,Spicy grilled meat mixed with rice,1028
+849,Old vinegar sting,413
+850,The spicy cold eating rabbit meat,446
+851,Fried yellow beef,457
+852,Oxtail soup,412
+853,Steamed egg,303
+854,Spicy bullfrog,457
+855,Toon seedlings mixed with tofu shreds,488
+856,White snow black glutinous rice,675
+857,Stir-fried pork belly with chili,455
+858,Brown sugar hair cake,871
+859,Fried taro roll,431
+860,Red bean ice,501
+861,Sansho black fungus,302
+862,Fried pork with beans,569
+863,Pan-fried fish,498
+864,Fresh pepper fish,475
+865,Scrambled eggs with onions,357
+866,Scrambled eggs with cucumber,287
+867,Bean curd stick,468
+868,Dip in pickles,403
+869,Macaron,476
+870,Chicken noodles,481
+871,Braised fish pot,255
+872,Chopped pepper and taro,364
+873,Push cake,822
+874,Spicy chicken rice,400
+875,Fennel fried dough sticks,478
+876,Lemon fish,418
+877,Sizzling shrimp,436
+878,Green beans in garlic sauce,418
+879,Honey cake,194
+880,Grilled chicken skewers,271
+881,Dried intestines,272
+882,Spiced marinated eggs,481
+883,Dried vegetable with fried egg,383
+884,Steamed egg with shrimp,212
+885,Crispy rice cake,399
+886,Thick honey toast,309
+887,Salt baked chicken feet,370
+888,Tin foil baby cabbage,299
+889,Cheese bacon pizza,346
+890,Black rice and red bean porridge,368
+891,Grilled small yellow croaker,297
+892,Scrambled eggs with local vegetables,912
+893,Fried chili,399
+894,Fish with tomato,431
+895,Stir-fried bacon with garlic moss,395
+896,Drunken fish,442
+897,Spiced corned egg,364
+898,Fried tofu,277
+899,Tapioca pudding,429
+900,Sweet and spicy fried chicken,398
+901,Puffs,933
+902,Fried vermicelli with bean sprouts,300
+903,Sautizceed fish in chili sauce,396
+904,Sautizceed bullfrog in chili sauce,280
+905,Cold noodles with sesame sauce,495
+906,Sea food noodles,489
+907,Spicy chicken,1635
+908,Braised Tofu,489
+909,Tuna and seaweed rolled rice,433
+910,Haggis noodle soup,485
+911,Chicken salad noodles,461
+912,Salted egg yolk with crispy crust,384
+913,Fried fish cake,297
+914,Red bean pie,363
+915,Cumin chicken fillet,973
+916,Durian pizza,447
+917,Fried noodles with beef,421
+918,Pork chop bun,490
+919,Big bone soup,173
+920,Chocolate covered croissant,495
+921,Roasted garlic,300
+922,Custard piglet bun,387
+923,Fried milk melon with garlic slices,424
+924,Scrambled eggs with shrimp,429
+925,Grilled vegetarian chicken skewers,378
+926,Potato flour with seafood,446
+927,Shrimp dumpling king,494
+928,Cow ribs,416
+929,Griddle cabbage,388
+930,Double beef fort,275
+931,Seafood noodles,482
+932,Fried udon,531
+933,Duck foot pot with snail,490
+934,Delicious jelly,1511
+935,Fried chicken with edamame,376
+936,Mashed potatoes with cheese,500
+937,Sauce burst screws,376
+938,Crab Dumplings in Soup,1961
+939,Pearl balls,736
+940,Oreo sawdust cup,476
+941,Cucumber with beef,365
+942,Spicy beef noodle,409
+943,Sashimi platter,480
+944,Braised winter melon,258
+945,Teriyaki chicken chop rice,462
+946,Roast chicken butt,214
+947,Peanut edamame,338
+948,Foie gras sushi,418
+949,Whirlwind potato tower,411
+950,Angel cake,467
+951,Fruit spell,413
+952,Boiled quail eggs,486
+953,Steamed chicken feet with sauce,1145
+954,Chocolate sundae,274
+955,Old kitchen cabbage,481
+956,Spicy rice noodles,818
+957,Steamed Fish Head with sauce,353
+958,Fried sheep miscellaneous,559
+959,Chestnut,389
+960,Salt and pepper prawns,409
+961,Burning smell platter,1019
+962,Milk and peach gum,422
+963,Skewer shrimp,219
+964,Foil grilled fish,716
+965,Chopped green onion Fried eggs,418
+966,Ramen with beef,447
+967,Braised hairtail,394
+968,Mix powder,286
+969,River snail,496
+970,Chicken pot,1727
+971,Chicken wing rice,501
+972,Geoduck sashimi,495
+973,Chocolate,308
+974,Croissant,493
+975,Spiced beef,815
+976,Cheese pizza,486
+977,Braised lamb,401
+978,Fried yam,368
+979,Steamed multiple preserved hams,271
+980,Mussels screw,231
+981,Salted duck egg,1096
+982,Black sesame quicksand bun,375
+983,Glutinous rice cake,285
+984,Salad crispy chicken rice,924
+985,Rattan pepper chicken,345
+986,Braised chicken in casserole,406
+987,Garlic crayfish,1333
+988,Sakura roll,674
+989,Fried octopus,872
+990,Cheese back ribs,330
+991,Sauerkraut fried rice,423
+992,Griddle duck,449
+993,Fried pork slices,498
+994,Red date cake,406
+995,Cold cut foie gras,1012
+996,Red bean taro balls,488
+997,Fried intestines,452
+998,Stir-fried pork belly with spicy cabbage,445
+999,Instant noodles,360
+1000,Frisizcee mixed with almonds,412
+1001,Fried lamb,408
+1002,Baked steamed bun slices,777
+1003,Pumpkin cream soup,293
+1004,Fried tofu,662
+1005,Fresh taro,242
+1006,Grilled rack of lamb,1816
+1007,Tossed cellophane noodles,427
+1008,Scalded tripe,396
+1009,Cream puff sticks,272
+1010,Boiled Chinese kale,308
+1011,Steamed ribs,697
+1012,Sausage fried rice,1108
+1013,Creamy corn soup,492
+1014,Creamy bacon pasta,457
+1015,Rice wine dumplings,341
+1016,Soba noodles,458
+1017,Yam steamed with osmanthus honey,467
+1018,Duck heart,431
+1019,Rice topped with shredded potato,340
+1020,Tofu pudding topped with crab guts,385
+1021,Fried shrimp cake,297
+1022,Roasted oysters,1564
+1023,Fish flavored shredded pork,971
+1024,Beef cubes fried with black pepper,420
+1025,Assorted boiled delicacies,247
+1026,Twice cooked pork with bell pepper,254
+1027,Salmon sushi,1986
+1028,Marinated noodles,744
+1029,Spinach mixed with peanuts,805
+1030,Garlic kelp shreds,1377
+1031,Steamed pumpkin,665
+1032,Rice noodles fried with beef,502
+1033,Bean curd stir-fried with chives,476
+1034,Yakitori,274
+1035,Chee cheong fun,625
+1036,Fried noodle with shredded pork,423
+1037,Fried fish and shrimp,398
+1038,Glutinous rice,560
+1039,Fried pork with yuba,386
+1040,Bacon pasta,810
+1041,Salt fried meat,672
+1042,Xiao long bao,1048
+1043,Curry fish ball,804
+1044,Cuttlefish,442
+1045,Fried prawns,562
+1046,Broad beans with scallion oil,429
+1047,Potato cake,500
+1048,Kung pao chicken,464
+1049,Onion rings,1982
+1050,Goose palm,270
+1051,Steamed carp,388
+1052,Meat dumplings,387
+1053,Spicy grilled fish,501
+1054,Hand peeling bamboo shoots,397
+1055,Mango milk,250
+1056,Steamed crab feet,268
+1057,Barbecued pork noodles,1523
+1058,Sheep scorpion,1438
+1059,Hanamaki,849
+1060,Roasted enoki mushroom,407
+1061,Blueberry fried yogurt,459
+1062,Bullfrog claypot,407
+1063,Pork eggplant,435
+1064,Fried noodles with shredded pork,282
+1065,Cucumber dressing,409
+1066,Dried tofu with hot pepper,500
+1067,Salt and pepper chops,341
+1068,Fried chicken legs,437
+1069,Fried peanuts,651
+1070,Griddle bullfrog,414
+1071,Salt and pepper nine belly fish,314
+1072,Cup cake,516
+1073,Abalone and fin belly soup,364
+1074,Bean curd in sugar water,157
+1075,Braised hemp food,471
+1076,Duck intestines,237
+1077,Shredded radish stewed shrimp,209
+1078,Taro meat,431
+1079,Lamb chops hand pilaf,589
+1080,Sesame catsup sauce,457
+1081,Sauerkraut fish with green pepper,975
+1082,Fried small spring rolls,251
+1083,Clams steamed egg,409
+1084,Spaghetti with tomato meat sauce,500
+1085,Tofu stewed with cabbage,451
+1086,Chicken wing tip,806
+1087,Stir-fried fatty intestine with hot pepper,359
+1088,Fried squid,422
+1089,Eggplant with sauce,440
+1090,Shrimp with ice powder,717
+1091,Hot squid,449
+1092,Meat floss egg pie,500
+1093,Hot pot fish,497
+1094,Prawn casserole,400
+1095,Seafood tofu soup,438
+1096,Garlic grilled fish,499
+1097,Fish vermicelli,1086
+1098,California hand-rolled sushi,369
+1099,Eight treasure congee,934
+1100,Sesame beans,993
+1101,Fried shrimp balls with cheese,391
+1102,Spicy beef tendon,402
+1103,Mango pancake,833
+1104,Sauce spine,498
+1105,Sweet potato porridge,499
+1106,Dry pot frog,438
+1107,Braised pork intestines,408
+1108,Fried sweet potato,167
+1109,Lamei and claypot rice,319
+1110,Green bean porridge,441
+1111,Scallion chicken,429
+1112,Fried rice of yangzhou style,343
+1113,Green onion Chinese pancake,913
+1114,Steamed bread slices,509
+1115,Cucumber roll sushi,465
+1116,Stir fry,494
+1117,Tossed tripe,154
+1118,Boiled chicken rice,380
+1119,Cucumber and peanuts,445
+1120,Spicy ramen,442
+1121,Fried clams with ginger and spring onion,1111
+1122,Fruit salad,311
+1123,Shrimp porridge,439
+1124,Palace fried shrimp ball,458
+1125,Spanish mackerel,438
+1126,Radish sauce,421
+1127,Spicy slice pig ear,906
+1128,Curry chicken baked rice,927
+1129,Curry beef rice,376
+1130,Belt noodle,383
+1131,Durian melaleuca cake,837
+1132,Garlic spinach,1116
+1133,Mahjong biscuits,448
+1134,Beef noodles in sour soup,389
+1135,Brown sugar buns,498
+1136,Crucian carp,349
+1137,Minced pork vermicelli,462
+1138,Crispy mung bean cake,378
+1139,Fried chicken wings tip,359
+1140,Strawberry smoothie,263
+1141,Earth pot chicken,1554
+1142,Boiled beef,996
+1143,Tomato beef stew,572
+1144,Fried dumplings,176
+1145,Salted duck,436
+1146,Krabby patty,488
+1147,New orleans pair of wings,916
+1148,Beef tenderloin,462
+1149,Steel pipe chicken,353
+1150,Fruit muffins,401
+1151,Unagi sushi,1304
+1152,Muffin,246
+1153,Seafood pasta,1810
+1154,Braised lobster,470
+1155,Mixed grain vermicelli,497
+1156,Som tam,518
+1157,Creamy waffle,469
+1158,Cheese bread,321
+1159,Melaleuca,412
+1160,Salmon fried rice,440
+1161,Egg fried rice,1134
+1162,Tom yum kung,459
+1163,Beef bibimbap,498
+1164,Meringue,536
+1165,Carrotcake,297
+1166,Fried rice cake with swimming crab,434
+1167,Roast goose rice,354
+1168,Strawberry yoghurt,163
+1169,Assorted sauce,1831
+1170,Small yellow croaker,356
+1171,Doraemon cake,487
+1172,Fried noodles with soy sauce,496
+1173,Roasted silkworm pupa skewers,505
+1174,Three silk fried noodles,473
+1175,Stir-fried cabbage,369
+1176,Blueberry yam,165
+1177,Boiled okra,295
+1178,Egg yolk meat dumpling,371
+1179,Taro pie,487
+1180,Longevity dishes,345
+1181,Delicious shrimp fort,845
+1182,Beef brisket with radish,1034
+1183,Pickled cabbage soup,181
+1184,Crispy pigeon,446
+1185,Chicken rice noodle,383
+1186,Fried pork belly,271
+1187,Fried lettuce,306
+1188,Squirrel mandarin fish,309
+1189,Mustard shreds,421
+1190,Love chicken chop,229
+1191,Naked cake,450
+1192,Laoganma fried rice,920
+1193,Pho,483
+1194,Mapo tofu donburi,501
+1195,Pork feet noodles,364
+1196,Stone pot fish,1116
+1197,Ginger fried duck,484
+1198,Roti prata,459
+1199,Red bean barley congee,406
+1200,Cookies,475
+1201,Poached pork slices,1946
+1202,Fragrant egg yolk roll sushi,228
+1203,Braised pork trotters,499
+1204,Sauce fried squid,414
+1205,Dorayaki,265
+1206,Authentic intestine,378
+1207,White radish ribs simmering soup,302
+1208,Curry shrimp,451
+1209,Coconut bread,191
+1210,Japanese pumpkin tart,494
+1211,Pigâ€™s head meat,453
+1212,Mango roll sushi,332
+1213,Lentil braised noodles,413
+1214,Sheep roll,481
+1215,Tamago nigiri sushi,440
+1216,Freshly fried small crispy pork,504
+1217,Scrambled eggs with green peppers,391
+1218,Bacon bibimbap,386
+1219,Fried rice noodles,358
+1220,Grilled baby Chinese cabbage skewers,511
+1221,Grilled chicken drumsticks,336
+1222,Fried poached egg with laba beans,488
+1223,Mochi bun,359
+1224,Nanning rice noodle,496
+1225,Coconut sago,946
+1226,Roasted leeks,368
+1227,Grilled string bean skewers,411
+1228,Whitebait scrambled eggs,283
+1229,Fish-flavored eggplant pot,325
+1230,Fried shrimp in typhoon shelter,503
+1231,Fried potato chips,832
+1232,Ham sausage,440
+1233,Stewed meat,404
+1234,Seaweed pork floss bread,397
+1235,Pounded chicken feet,371
+1236,Fresh meat soup dumplings,835
+1237,Iron squid,1004
+1238,Egg and ham sandwich,296
+1239,Dongpoâ€™s braised pork,437
+1240,Braised tofu,325
+1241,Rocky cheese,1036
+1242,Fried pulp,482
+1243,Fruit jelly,380
+1244,Raw cooking cabbage,240
+1245,Liocarcinus,751
+1246,Black-bone chicken roll,473
+1247,Fried bun slices,222
+1248,Taro sago,888
+1249,Sizzling tofu,294
+1250,Beef noodles,450
+1251,Poplar twig nectar,1132
+1252,Pickle chicken feet,441
+1253,Rice wine and egg drop soup,500
+1254,Red oil dumplings,1084
+1255,Sour beans,471
+1256,Potato flour casserole,1060
+1257,Shrimp,336
+1258,Chicken chop,820
+1259,Fried sea oysters,1098
+1260,Stir-fried beef with green pepper,243
+1261,Tomato puree,208
+1262,Fried tempura,316
+1263,Green bean cake,729
+1264,Salty burning white,409
+1265,Three yellow chicken nuggets,211
+1266,Garlic shrimp,423
+1267,Fired pork in a scoop,479
+1268,Bread crab,350
+1269,Spicy sausage,868
+1270,Barbecued pork noodle,947
+1271,Beer duck,367
+1272,Fried yogurt with oreo cookies,422
+1273,Chinese hamburger,1057
+1274,Princess lee roll sushi,780
+1275,Sea salt milk cake,384
+1276,Stir fried fungus with celery,370
+1277,Double cake,492
+1278,Taian Fish,358
+1279,Boiled bullfrog,397
+1280,Steamed sturgeon,352
+1281,Tuna sashimi,1129
+1282,Stewed chicken soup,1012
+1283,Shrimp fried rice,1540
+1284,Corn warship sushi,368
+1285,Milk small party,370
+1286,Shrimp and crab pot,401
+1287,Chili noodles,467
+1288,Chicken skewers,822
+1289,Leek pie,381
+1290,Stir-fried pork with garlic shoots,361
+1291,Pop cake,458
+1292,Matcha flavored daifuku,338
+1293,Black pepper chicken nuggets,888
+1294,Roasted chicken leg,416
+1295,Potato powder,467
+1296,Cart noodle,218
+1297,cheesecake,649
+1298,Fried snails,1406
+1299,Stir fry,499
+1300,Balsamic peanuts,1077
+1301,Rice casserole,426
+1302,Spicy chicken wing,482
+1303,Strawberry double skin milk,318
+1304,Roast duck cake,563
+1305,Grilled tofu,592
+1306,Matcha ice cream,496
+1307,Preserved egg porridge,426
+1308,Pork knuckle soup powder,217
+1309,Black pepper steak rice,190
+1310,Cold crucian carp,423
+1311,Braised bamboo shoots,455
+1312,Sweet and sour pork,499
+1313,Old bow! fish,409
+1314,Tofu with preserved eggs,827
+1315,Black pepper sausage,501
+1316,Roast suckling pig,492
+1317,Ciba ice powder,988
+1318,Braised chicken and rice,378
+1319,Sea Emperor fans clay pot,688
+1320,Orleans drumsticks,465
+1321,Salt and pepper ribs,343
+1322,Eel rice,1356
+1323,Pork skewers,898
+1324,Cold jellyfish,405
+1325,Boiled cabbage heart,542
+1326,Baked clams in tin foil,331
+1327,Hand holding fan bone,429
+1328,Casserole yam,260
+1329,Bak kut teh,429
+1330,Red velvet cake,329
+1331,Round taro with coconut milk,411
+1332,Stone pot bullfrog,467
+1333,Seafood steamed egg,203
+1334,Stir-fried potato shreds with green pepper,581
+1335,Yellow braised beef,394
+1336,Longan and red date congee,318
+1337,Stir fried diced noodles,384
+1338,Ice cream waffles,470
+1339,Strawberry mille cake,447
+1340,Corn salad,198
+1341,Lava rock sausage,418
+1342,Lettuce in oyster sauce,301
+1343,Casserole fish head pot,496
+1344,saozi noodles,459
+1345,Fried pork rice,416
+1346,Hot pepper twice cooked pork,412
+1347,Spicy Ginger Chicken Feet,375
+1348,Platycodon,489
+1349,Flavored eggplant,461
+1350,Beef vermicelli soup,401
+1351,Ginger lotus root,811
+1352,Pork congee,417
+1353,Multi-flavored fish skewers,450
+1354,Fried noodles,1585
+1355,Shacha noodles,317
+1356,Beef pan noodle,499
+1357,Pork fried rice,454
+1358,Homemade fish,206
+1359,Lemon chicken feet,499
+1360,Cheese stick,303
+1361,Pork beans,361
+1362,Soy sauce steamed pork ribs,744
+1363,Milk oatmeal,381
+1364,Rattan pepper fish fillet,300
+1365,Peanut butter noodles,293
+1366,Spicy frog,480
+1367,Cranberryizcebiscuit,497
+1368,Pot lamb chops,399
+1369,Tomato egg noodle,693
+1370,Di San Xian,439
+1371,Chocolate fruit cake,460
+1372,Grandma dishes,488
+1373,Yuxiang pork rice bowl,971
+1374,Roast chicken,472
+1375,Boneless chicken fillet,1024
+1376,Bacon fried rice,908
+1377,Urayaki eel,492
+1378,Braised spare ribs noodles,350
+1379,Mushroom stewed chicken noodle,579
+1380,Beijing sauce pork,457
+1381,Capelin,422
+1382,Garland chrysanthemum,361
+1383,Green pepper preserved egg,378
+1384,Fried noodles with ham,334
+1385,Grilled whole fish,344
+1386,Spicy cabbage bibimbap,314
+1387,Grilled eggplant,441
+1388,Sauerkraut pork noodle,324
+1389,Black stinky tofu,1163
+1390,Eggplant claypot,493
+1391,Griddle pork Intestines,397
+1392,Stir-fried ginger and green onion,161
+1393,Three yellow chicken,363
+1394,Cumin cartilage,468
+1395,Burrito,931
+1396,Cumin lamb,399
+1397,Beef burger,398
+1398,Sour soup with beef,270
+1399,Scallop lean pork congee,320
+1400,Potato beef,945
+1401,Steamed crab,730
+1402,French fries,1103
+1403,Popping milk cake,252
+1404,Strange rice,399
+1405,Dried squid and shrimp,767
+1406,Stir-fried organic cauliflower,295
+1407,Griddle potato chips,499
+1408,Sliced toast with raisins,377
+1409,Loin roast,158
+1410,Roast duck rice,325
+1411,Oil gluten,470
+1412,Supreme pizza,455
+1413,Egg seaweed soup,431
+1414,Spicy chicken feet,462
+1415,Fried crispy banana,424
+1416,Stir-fried dried tofu with hot pepper,571
+1417,Chilled lobster,436
+1418,Fish pan cake,408
+1419,Stewed goose in iron pan,283
+1420,Smoked duck,261
+1421,Fried pork with fungus,327
+1422,Grilled horse pacifier,419
+1423,Tedious,1321
+1424,Tiger skin and chicken feet,415
+1425,Ground sanxian rice bowl,275
+1426,Yellow stinky tofu,399
+1427,Duck neck,1398
+1428,Stone bowl chicken nuggets,1080
+1429,Mango shrimp salad,248
+1430,Snowflakes,491
+1431,Fried jelly,386
+1432,Scallion black fungus,413
+1433,Spicy noodles,880
+1434,Eggplant garlic juice,445
+1435,Spicy spare ribs,267
+1436,Gourd chicken,453
+1437,Mango ice,410
+1438,Grilled pork neck,422
+1439,Flame steak,478
+1440,Chicken neck,410
+1441,Margherita pizza,469
+1442,Casserole pork knuckle pot,419
+1443,Tomato rice noodles,237
+1444,Roasted peppers,280
+1445,Scrambled eggs with ham,241
+1446,Fried rice cake,271
+1447,Stewed fish in iron pan,807
+1448,Sweet shrimp sashimi,331
+1449,Spicy yuba,326
+1450,Baked shrimp roll with cheese,462
+1451,Beef pizza with black pepper,490
+1452,Pepper chicken,480
+1453,Sukiyaki goose,325
+1454,Roast chicken wing tip,334
+1455,Fried lotus root,403
+1456,Caramel pudding,463
+1457,Arctic bay,499
+1458,Shrimp rolls,616
+1459,Hot pot chicken giblets,498
+1460,Homely stewed fish,465
+1461,Eggplant salad,479
+1462,Fried potato chips,280
+1463,Macadamia,895
+1464,Tremella lianzi geng,386
+1465,Gravy radish,397
+1466,Sweet heart pastry,460
+1467,Glutinous rice lotus root,829
+1468,Durian cheesecake,365
+1469,Steamed crab claws,424
+1470,Sweet and sour fillet,1015
+1471,Braised pork ribs,500
+1472,Ribeye steak,451
+1473,Salted shrimp with pepper,499
+1474,Fried instant noodles,311
+1475,Fried rice noodles with chicken,475
+1476,Cheese baked rice,429
+1477,Roast chicken head,428
+1478,Salad barbecue bibimbap,383
+1479,Fried chicken chop,758
+1480,Marinated beef brisket in spiced sauce,335
+1481,Spicy potato chips,241
+1482,Fruit cup,496
+1483,Meatballs,428
+1484,Bowl chicken,1056
+1485,Marinated trotters,501
+1486,Spicy lobster tail,802
+1487,Sesame biscuits,494
+1488,Fried bacon with dried radish,1238
+1489,Red wine sydney,470
+1490,Crab pot,1306
+1491,Braised sausage,450
+1492,Braised chili in oil,260
+1493,Orleans chicken drumsticks,451
+1494,Sea urchin sashimi,500
+1495,Barrel fish,349
+1496,White cut chicken,496
+1497,Grilled tofu,444
+1498,Songhua egg with ginger sauce,321
+1499,Cold rice tofu,214
+1500,Roast pork knuckle,1459
+1501,Steamed shrimp with garlic vermicelli,197
+1502,Tuna warship sushi,398
+1503,Vegetable salad,1828
+1504,Choy sum sting peel,510
+1505,Brushed cheese hot dog sticks,825
+1506,Chocolate mousse cake,1251
+1507,Popcorn,500
+1508,Minced pork hand-rolled sushi,312
+1509,Grilled chicken feet skewers,161
+1510,Fruit steak,419
+1511,Fried noodle with egg,433
+1512,Crispy bone sausage,333
+1513,Chicken with chestnut,197
+1514,Scalded prawns,378
+1515,Fruit box,493
+1516,Hang Sanxian,332
+1517,Cut noodles in casserole,369
+1518,Burning noodles,440
+1519,Pineapple pie,315
+1520,Enoki mushroom mixed with cucumber,461
+1521,Taro balls,311
+1522,Sauerkraut rice noodles,419
+1523,Cured fried rice,465
+1524,Yam polenta,412
+1525,Pickle,462
+1526,Hot and sour chicken mixed,498
+1527,Millet cake,409
+1528,Yam pork ribs soup,318
+1529,Fried biscuits,176
+1530,Fried chicken,263
+1531,Casserole white tofu,395
+1532,Milk flavor bread slice,499
+1533,Saury,1466
+1534,Black forest cake,485
+1535,Pumpkin porridge,451
+1536,Curry chicken rice,414
+1537,Fried duck,451
+1538,Griddle shredded chicken,495
+1539,Steamed dumpling,333
+1540,Red shrimp,291
+1541,Mushroom and vegetable porridge,949
+1542,Moon cake,1298
+1543,Lettuce tip,483
+1544,Spaghetti black pepper beef,1990
+1545,Johnnycake,439
+1546,Braised chicken with bamboo sticks in coconut,446
+1547,Borscht,1072
+1548,Shrimp salad,198
+1549,Steamed bun fried bun,450
+1550,Mixed edamame,1425
+1551,Beef rice,826
+1552,Griddle cooked tea tree mushrooms,486
+1553,Roast pork skin,345
+1554,Taste snake,436
+1555,Kelp green bean paste,506
+1556,Egg tart,485
+1557,Abalone rice,469
+1558,Chicken wing pot,279
+1559,Pineapple seafood fried rice,227
+1560,Beef and egg fried rice,517
+1561,Whole wheat bread,300
+1562,Steamed rice noodles,456
+1563,Chicken roll,1624
+1564,T-bone steak,437
+1565,Braised Japanese tofu,353
+1566,Fried ice cream,380
+1567,Sauerkraut beef noodle,422
+1568,Sesame octopus warship sushi,493
+1569,Grilled anhui,333
+1570,Scones,455
+1571,Crab siu mai,605
+1572,Shin ramen,314
+1573,Rice with tomato and eggs,1338
+1574,Fatty intestine,354
+1575,Hand roll noodle,795
+1576,Steamed fish,467
+1577,Pork liver and lean meat porridge,791
+1578,Harbin sausage,498
+1579,Bitter vegetable soup,405
+1580,Shredded bag,401
+1581,Fried yuba,447
+1582,Stir-fried pork with corn,310
+1583,Shrimp wanton noodles,433
+1584,Pea noodles,452
+1585,Flatbread,194
+1586,Roasted cauliflower,271
+1587,Red date and white fungus soup,393
+1588,Scallion noodles,456
+1589,Steamed abalone with garlic,417
+1590,Stir-fried vermicelli with cabbage,1233
+1591,Mango melaleuca box cake,494
+1592,Cantonese sponge cake,439
+1593,Seaweed rice,452
+1594,Fried eggs with fungus,792
+1595,Stir-fried shredded lettuce,343
+1596,Fried crab with ginger and spring onion,333
+1597,Chicken porridge,492
+1598,Roasted peppers,401
+1599,Beef noodle,369
+1600,Bacon ham pizza,459
+1601,Pine nut fish,450
+1602,Kimchi fish,495
+1603,Umeboshi vegetable roast meat,758
+1604,Fried king pleurotus,281
+1605,Vegetable pancake,361
+1606,Glutinous rice,199
+1607,Miso soup,487
+1608,Curry omelet rice,384
+1609,Matcha melaleuca cake,412
+1610,Lotus root pork ribs soup,429
+1611,Soy sauce fried rice,500
+1612,Pumpkin soup,446
+1613,Fan shabu,439
+1614,Cooked duck with lemon,399
+1615,Shrimp noodles,215
+1616,Spicy crab,1984
+1617,Bitter gourd fried pork,494
+1618,Fried hot and sour potato shreds,637
+1619,Salt and pepper peanuts,941
+1620,Baked crab with egg yolk,401
+1621,Celery fried yuba,348
+1622,Beef offal,437
+1623,Kanto cooking,887
+1624,Nigiri sushi,343
+1625,Fish with bean curd,473
+1626,Sizzling frog,212
+1627,Lilies fat and sleek cows,302
+1628,Duck wings,449
+1629,Pickled pepper baby food,328
+1630,Hakka tofu,849
+1631,Saliva chicken,447
+1632,Bamboo shoot pork,356
+1633,Stir-fried vegetables with mushrooms,370
+1634,Crab congee,360
+1635,Baked spaghetti with cheese and meat sauce,390
+1636,Haagen-Dazs ice cream,267
+1637,Northeast chaos,337
+1638,Sauce elbow,423
+1639,Cheese baked shrimp,368
+1640,Vetch,447
+1641,Spaghetti with tomato sauce and bacon,361
+1642,Egg beef porridge,467
+1643,Biangbiang,289
+1644,Pork rice noodles,369
+1645,Pig skin jelly,495
+1646,Crispy pork slices,336
+1647,Beautiful frog fish head,329
+1648,Seafood paella,477
+1649,Cruller,487
+1650,Casserole fish head,421
+1651,Stir-fried shredded potatoes with celery,288
+1652,Potato stew chicken nuggets,434
+1653,Dregs biscuits,896
+1654,Kimchi hot pot,183
+1655,Fried dumpling,519
+1656,Crispy pork rice,432
+1657,Tribute dish,463
+1658,Peanut,480
+1659,Fried sausage,889
+1660,Hot and sour soup,339
+1661,Glutinous rice,469
+1662,Chicken soup rice noodles,391
+1663,Fried spicy chicken wing root,386
+1664,Dorayaki,500
+1665,Scrambled eggs with tomatoes,889
+1666,Nuomici,177
+1667,Fried lesser croaker,378
+1668,Shredded duck,406
+1669,Roast duck,885
+1670,Spicy fish ball,327
+1671,Stir-fried pork with mustard,255
+1672,Steamed venetian bag,678
+1673,Double chicken hamburger,810
+1674,Abalone,328
+1675,Baked string beans,304
+1676,Tuna pizza,486
+1677,Roasted goose,1670
+1678,Sauted sauerkraut sausage,497
+1679,White shellfish,407
+1680,Sauteed bean sprouts,324
+1681,Chicken rack,487
+1682,Stinky mandarin fish,487
+1683,Cold pot string,465
+1684,Cold papaya,359
+1685,Delicious fern powder,382
+1686,Lettuce fried meat,707
+1687,Stewed clams with Papaya,447
+1688,Roasted corn kebabs,407
+1689,Bandit duck,571
+1690,Chicken heart string,265
+1691,Phoenix tail prawns,330
+1692,Pickled sweet garlic,701
+1693,Fried chicken fork bone,1371
+1694,Chicken burger,486
+1695,Fried pork chop,383
+1696,Skin shrimp,1381
+1697,Fried pork with pepper,683
+1698,Pork lungs in chili sauce,322
+1699,Vermicelli soup,432
+1700,Lean meat soup,896
+1701,Stir fried vegetables,385
+1702,Sauted beef with hot pepper,211
+1703,Coconut cake,192
+1704,Hot pot chicken,256
+1705,Braised fish in plain pot,425
+1706,Stir-fried chives with bean curd sheets,455
+1707,Fried preserved eggs with pepper,907
+1708,Cold mixed pig ear,426
+1709,Semi cooked cheese,365
+1710,Stewed mutton,344
+1711,Beef ribs with black pepper,430
+1712,Noodles with beef,1110
+1713,Roast lamb leg,1053
+1714,Prawn tail,369
+1715,Baked beans,457
+1716,Stewed goose,368
+1717,Boiled egg,678
+1718,Radish strips,175
+1719,Fish porridge,958
+1720,Chicken kebabs,1427
+1721,Angry birds cake,457
+1722,Soybean,501
+1723,Snail powder with beef brisket,310
+1724,Egg cake,991
+1725,Fried shrimps with cashew nuts,498
+1726,Simi fruit fishing,316
+1727,Bean curd with stone plate,399
+1728,Stewed chicken leg,499
+1729,Stewed noodles with mutton,500
+1730,Mutton noodles,494
+1731,Cylindrical bone meal,486
+1732,Sliced pork and potato,260
+1733,Seafood congee,396
+1734,Ice porridge,497
+1735,Toothpick meat,466
+1736,Chicken feet pot,390
+1737,Roll cold noodle,339
+1738,Papaya and tremella soup,382
+1739,Golden sweet potato stick,485
+1740,Pineapple fried rice,359
+1741,Stewed pork feet with ginger,322
+1742,Stir-fried celery with smoked bean curd,269
+1743,Steamed scallop with minced garlic and vermicelli,1268
+1744,Dried tofu,612
+1745,Cranberry cookies,456
+1746,Boiled mutton,770
+1747,Boiled crayfish,1830
+1748,Salted white shrimp,338
+1749,Marinated goose,493
+1750,Water-chestnut pudding,372
+1751,Preserved egg with chopped pepper,575
+1752,Tofu pudding,444
+1753,Deep-fried dough sticks,761
+1754,Fried squid ring,500
+1755,Grilled squid,1431
+1756,Takoyaki,1457
+1757,Popcorn chicken,964
+1758,Roasted fish with soy sauce,368
+1759,Steamed Wuchang Fish,392
+1760,Kebabs with soy sauce,324
+1761,Eggplant with hot pepper,595
+1762,Fried bacon with lotus beans,385
+1763,Steamed green spotted fish,429
+1764,Steamed white guitar,161
+1765,Yu-Shiang eggplant,442
+1766,Eel roll sushi,344
+1767,Mango sorbet,424
+1768,Marinated beef,630
+1769,Fish and mutton,333
+1770,Blueberry sundae,552
+1771,Mixed beans,449
+1772,Fried rice with bacon,309
+1773,Spicy wings,498
+1774,Hot and sour lotus root,207
+1775,Razor clam,302
+1776,Roast dried pork,368
+1777,Spicy carp,583
+1778,Cumin beef,392
+1779,Red dates and tremella soup,366
+1780,Strawberry ice cream,173
+1781,Crab seed sushi,416
+1782,Sea cucumber with millet,459
+1783,Braised steak fillet,266
+1784,Braised chicken,213
+1785,Fried meatballs,357
+1786,Spicy palm,1091
+1787,Black sesame glutinous rice balls,526
+1788,Grilled beef ribs,376
+1789,Steamed yellow croaker,430
+1790,Flammulina velutipes roll with streaky pork,512
+1791,Grilled eggplant,268
+1792,Baby cabbage with garlic,624
+1793,Stir fried beef with mustard,312
+1794,Watermelon sago,157
+1795,Mango sausage,450
+1796,Boiled fish with pickled cabbage and chili,1960
+1797,Spare ribs with garlic,1025
+1798,Stewed meat noodles,898
+1799,Rice peel,352
+1800,Steamed sausage noodles with lean meat,1029
+1801,Grilled beef short rib,337
+1802,Cold mixed peanuts,446
+1803,Braised small yellow croaker,327
+1804,Steamedf Fish head with diced hot red peppers,430
+1805,Sugar fried chestnut,419
+1806,Coconut pudding,283
+1807,Caesar salad,462
+1808,Sichuan dandan noodles,339
+1809,Eggplant rice,498
+1810,Miso soup,414
+1811,Fried rice with beef,496
+1812,Golden pancake,393
+1813,Kalimeris with smoked bean curd,526
+1814,Chicken soup,392
+1815,Pine bass,384
+1816,Baked leek string,267
+1817,Taro round Sago,363
+1818,Cold bean sprouts,365
+1819,White cake,824
+1820,Fried milk,432
+1821,Dried baby cabbage,492
+1822,Fried mater convolvulus,419
+1823,Fish and egg noodles,352
+1824,Boiled peanuts,478
+1825,Black pepper steak,429
+1826,Spicy salted duck,220
+1827,Shredded bean curd with cold sauce,869
+1828,Amaebi,442
+1829,Seafood noodle bumps,439
+1830,Steamed chicken with rice in lotus leaf,191
+1831,Braised sea cucumber with scallion,482
+1832,Dry pot beef,362
+1833,Boiled broccoli,322
+1834,Mixed wonton,877
+1835,Glutinous rice cake with brown sugar,467
+1836,Squid body,256
+1837,Vegetable pot,322
+1838,Curry sirloin,493
+1839,Meat floss cake,498
+1840,Fried rice with sausage,499
+1841,Baby cabbage in casserole,523
+1842,Fried shrimp,299
+1843,Mutton hot pot,1111
+1844,Tea flavored boiled eggs,420
+1845,Rice with vegetables,275
+1846,Sausages with cheese,364
+1847,Broccoli soup,390
+1848,Roast tripe,264
+1849,Minced beef congee,480
+1850,Stewed beef offal,409
+1851,Scalded prawns,447
+1852,Ice cream egg puff,413
+1853,Honey toast,430
+1854,Rice with chicken leg,462
+1855,The brine cattle show,346
+1856,Bibimbap with pork belly,998
+1857,Shredded meat,257
+1858,Egg steamed meatloaf,416
+1859,Steamed side fish,428
+1860,Deep-fried cakes,1083
+1861,Roast chicken pizza,277
+1862,Sauce-flavored beef tendon,406
+1863,Coca cola chicken wings,155
+1864,Fried river prawns with leek,350
+1865,Chicken hot pot,965
+1866,Stewed meatballs with brown sauce,685
+1867,Boiled lamb chops,930
+1868,Salt baked chicken,468
+1869,Spicy shrimp pot,414
+1870,Papaya cool water,372
+1871,Garlic seasonal vegetables,1215
+1872,Appetizer duck blood,413
+1873,Salted egg yolk baked pumpkin,923
+1874,Fried beef rice with bitter melon,334
+1875,Sauce big bone,420
+1876,Broiled river eel,269
+1877,Kung Pao chicken with rice,439
+1878,Caterpillar bread,525
+1879,Sliced pork soup,746
+1880,Stone pot tofu,411
+1881,Stir-fried pork liver,492
+1882,Stir-Fried pork with smoked bean curd,340
+1883,Steamed twisted roll with scallions,455
+1884,Mixed mentai fish shreds,587
+1885,Slippery rice mushrooms chicken,302
+1886,Beef hotpot,848
+1887,Luncheon meat,500
+1888,Peru system sauce duck,460
+1889,Shredded rabbit meat,372
+1890,Egg pancake,421
+1891,Three-cup chicken,396
+1892,Noodles with chicken leg soup,203
+1893,Fried stone egg,239
+1894,Honey concave cake,153
+1895,Chocolate egg waffles,244
+1896,Lobster rice bowl,392
+1897,Scrambled eggs with Chinese chives,1160
+1898,Pan-Fried calf chop,1773
+1899,Black grass jelly,291
+1900,Green pepper shredded pork,500
+1901,Sweet and sour pork ribs,896
+1902,Original soup wonton,346
+1903,Salt grilled salmon head,900
+1904,Quicksand bun with egg custard,320
+1905,Stir-fried shredded pork with celery,467
+1906,Garlic chicken feet,239
+1907,Black pearl with smoothie,325
+1908,Roasted lamb loin,344
+1909,Donuts,481
+1910,Cold rice noodles,413
+1911,Black pepper chicken chop rice,172
+1912,Fried thousand page tofu,465
+1913,Corn cup,425
+1914,Sauce bones,853
+1915,Seafood udon,481
+1916,Baked cheesy seafood baked rice,403
+1917,Hot noodles with sesame paste,1335
+1918,Sizzling beef,481
+1919,Corn pie,955
+1920,Fruit and vegetable salad,442
+1921,Chicken wingette skewers,237
+1922,Yuanbao shrimp,405
+1923,Sliced roast duck,669
+1924,Mao xuewang,1859
+1925,Leek box,445
+1926,Beer fish,495
+1927,Griddle squid,252
+1928,Purple sweet potato bun,401
+1929,Twice-cooked pork with rice,399
+1930,Beef noodles,434
+1931,Delicious daifuku,309
+1932,Fried crab with ginger and green onion,890
+1933,Flower cake,483
+1934,Oreo snow mei niang,259
+1935,Fried lotus root,475
+1936,Chocolate donut,416
+1937,Chocolate toast,286
+1938,Roll dough,464
+1939,Durian pulp ice cream,287
+1940,Fried fish,490
+1941,Casserole balls,440
+1942,Spinach egg drop soup,364
+1943,Beef soup,987
+1944,Spring pancake,1226
+1945,Stir-fried rougamo,359
+1946,Spicy ribs and shrimp,346
+1947,Spicy cucumber strips,475
+1948,Shrimp wanton,499
+1949,Pickled cabbage noodles,1301
+1950,Golden mantou,834
+1951,Braised pork rice,499
+1952,Sugar mixed tomatoes,168
+1953,Shrimp pizza,343
+1954,Yang chun noodles,407
+1955,Stir-fried bitter gourd,416
+1956,Spicy fried clams,438
+1957,Soft tofu soup,430
+1958,Marinated chicken gizzards,237
+1959,Fried winter melon,438
+1960,Cold noodles,844
+1961,Fried egg,1192
+1962,Braised duck head,1989
+1963,Stir-fried chicken with pickled peppers,343
+1964,Cold rice cake,995
+1965,Shrimp tail,1380
+1966,Shredded lettuce salad,619
+1967,Steamed chicken,450
+1968,Tonkatsu,874
+1969,Sam chicken soup,422
+1970,Tomato sirloin,425
+1971,Griddle cooked lettuce bacon,427
+1972,Cold fungus,1992
+1973,Sizzling garlic shrimp,391
+1974,Pork ears with chilli oil dressing,387
+1975,Braised pork with potatoes,351
+1976,Stir-fried pig ears,338
+1977,Chilli oil liangpi,195
+1978,Corn and vegetable porridge,353
+1979,Spicy hot pot,681
+1980,Lamb pot,488
+1981,Crab and cheese soft pretzel,398
+1982,Toasted bread,362
+1983,Sea bream sashimi,462
+1984,Lotus root slices,289
+1985,Pork floss seaweed roll,314
+1986,Bean curd beef,436
+1987,Sixi roasted bran,488
+1988,Griddle duck head,1999
+1989,Tofu soup rice cake,350
+1990,Mushroom pot,253
+1991,Orlean roasted wing,414
+1992,Three products of sashimi,476
+1993,Durian cake,465
+1994,White cut lamb,514
+1995,Trash fish,387
+1996,Vanilla ice cream,381
+1997,Mushu pork rice bowl,281
+1998,Fried pork with beans,327
+1999,Sauerkraut meat,237
