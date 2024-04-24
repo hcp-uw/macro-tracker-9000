@@ -20,5 +20,5 @@ class Meal(Base):
     timestamp = Column(DateTime, default=datetime.utcnow)
     meal_name = Column(String, index=True)
     calories = Column(Integer)
-    user_id = Column(Integer, ForeignKey("users.id"))
+    user_id = Column(Integer, ForeignKey("users.user_id"))
     user = relationship("Meal", back_populates="user")
