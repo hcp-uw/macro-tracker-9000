@@ -20,7 +20,7 @@ load_dotenv()
 import os
 import MySQLdb
 
-
+# this needs to be fixed
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
@@ -50,6 +50,7 @@ def create_access_token(data: dict, expires_delta: timedelta | None = None):
     return encode_jwt
 
 # what are async functions for
+# what do we actually need this function for?
 async def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):
     credentials_exception = HTTPException(
         status_code=status.HTTP_401_UNAUTHORIZED,
@@ -59,14 +60,13 @@ async def get_current_user(token: str = Depends(oauth2_scheme), db: Session = De
     try:
         # wtf is this payload thing
         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
-        username: str = payload.get("sub")
-        user_id: int = payload.get("user_id")
-        if username is None or user_id is None:
+        user_id: int = payload.get("sub")
+        if user_id is None:
             raise credentials_exception
-        token_data = schemas.TokenData(username=username, user_id=user_id)
+        token_data = schemas.TokenData(user_id=user_id)
     except JWTError:
         raise credentials_exception
-    user = crud.get_user_by_username(db, username=token_data.username)
+    user = crud.get_user(db, user_id=token_data.user_id)
     if user is None:
         raise credentials_exception
     return user
@@ -84,7 +84,7 @@ async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends(
     access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
     # why is it "sub"
     access_token = create_access_token(
-        data={"sub": user.username, "user_id": user.id}, expires_delta=access_token_expires
+        data={"sub": user.user_id}, expires_delta=access_token_expires
     )
     return {"access_token": access_token, "token_type": "bearer"}
 
@@ -96,37 +96,38 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
     return crud.create_user(db=db, user=user)
 
 # remove later
-@app.get("/users/", response_model=list[schemas.User])
-def read_users(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-    users = crud.get_users(db, skip=skip, limit=limit)
-    return users
+# @app.get("/users/", response_model=list[schemas.User])
+# def read_users(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+#     users = crud.get_users(db, skip=skip, limit=limit)
+#     return users
 
 # either integrate with login or something
-@app.get("/users/{user_id}", response_model=schemas.User)
-def read_user(user_id: int, db: Session = Depends(get_db)):
-    db_user = crud.get_user(db, user_id=user_id)
-    if db_user is None:
-        raise HTTPException(status_code=404, detail="User not found")
-    return db_user
+# honestly not sure if we need this
+# @app.get("/users/{user_id}", response_model=schemas.User)
+# def read_user(user_id: int, db: Session = Depends(get_db)):
+#     db_user = crud.get_user(db, user_id=user_id)
+#     if db_user is None:
+#         raise HTTPException(status_code=404, detail="User not found")
+#     return db_user
 
 
-@app.post("/users/{user_id}/meals/", response_model=schemas.Meal)
+@app.post("/users/meals/", response_model=schemas.Meal)
 def create_meal_for_user(
-    user_id: int, meal: schemas.MealCreate, db: Session = Depends(get_db), current_user:schemas.User = Depends(get_current_user) # why tf is this not working
+    meal: schemas.MealCreate, db: Session = Depends(get_db), current_user:schemas.User = Depends(get_current_user) # why tf is this not working
 ):
-    if user_id != current_user.id:
-        raise HTTPException(status_code=403, detail="Unauthorized")
+    user_id = current_user.user_id
     return crud.create_user_meal(db=db, meal=meal, user_id=user_id)
     
 # do not need
-@app.get("/meals/", response_model=list[schemas.Meal])
-def read_meals(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-    meals = crud.get_meals(db, skip=skip, limit=limit)
-    return meals
+# @app.get("/meals/", response_model=list[schemas.Meal])
+# def read_meals(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+#     meals = crud.get_meals(db, skip=skip, limit=limit)
+#     return meals
  
 # need
-@app.get("/users/{user_id}/meals/", response_model=list[schemas.Meal])
-def read_user_meals(user_id: int, db: Session = Depends(get_db)):
+@app.get("/users/meals/", response_model=list[schemas.Meal])
+def read_user_meals(db: Session = Depends(get_db), current_user: schemas.User = Depends(get_current_user)):
+    user_id = current_user.user_id
     meals = crud.get_user_meals(db, user_id = user_id)
     return meals
 

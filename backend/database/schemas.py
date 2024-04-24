@@ -1,26 +1,47 @@
 import datetime
 from pydantic import BaseModel
 
-class Meal(BaseModel):
+class MealBase(BaseModel):
     id: int
-    user_id: int
     meal_name: str
     calories: int
+
+class MealCreate(MealBase):
+    timestamp:datetime
+
+class Meal(MealBase):
+    id: int
+    user_id: int
     timestamp: datetime
 
     class Config:
         orm_mode = True
 
-class MealCreate(BaseModel):
-    user_id: int
-    meal_name: str
-    calories: int
-    timestamp: datetime
+# class Meal(BaseModel):
+#     id: int
+#     user_id: int
+#     meal_name: str
+#     calories: int
+#     timestamp: datetime
 
-class User(BaseModel):
-    id: int
+#     class Config:
+#         orm_mode = True
+
+# class MealCreate(BaseModel):
+#     user_id: int
+#     meal_name: str
+#     calories: int
+#     timestamp: datetime
+
+class UserBase(BaseModel):
     username: str
+
+class UserCreate(UserBase):
     password: str
+
+class User(UserBase):
+    user_id: int
+
     meals: list[Meal] = []
 
     class Config:
@@ -31,7 +52,6 @@ class Token(BaseModel):
     token_type: str
 
 class TokenData(BaseModel):
-    username: str | None = None
     user_id: int | None = None
 
 # Why don't we make any changes in the models.py to include tokens?

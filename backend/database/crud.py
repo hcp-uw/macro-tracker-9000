@@ -5,21 +5,25 @@ from . import models, schemas
 
 from passlib.context import CryptContext
 
+# this is used every time we authenticate the access token provided by the frontend
+# whenever the frontend makes an endpoint call
 def get_user(db: Session, user_id: int):
-    return db.query(models.User).filter(models.User.id == user_id).first()
+    return db.query(models.User).filter(models.User.user_id == user_id).first()
 
-# dont need
+# this is used when we check if a username has already been created
 def get_user_by_username(db: Session, username: str):
     return db.query(models.User).filter(models.User.username == username).first()
 
 # dont need
-def get_users(db: Session, skip: int = 0, limit: int = 100):
-    return db.query(models.User).offset(skip).limit(limit).all()
+# def get_users(db: Session, skip: int = 0, limit: int = 100):
+#     return db.query(models.User).offset(skip).limit(limit).all()
 
 # old get_meals function
-def get_meals(db: Session, skip: int = 0, limit: int = 100):
-    return db.query(models.Meal).offset(skip).limit(limit).all()
+# def get_meals(db: Session, skip: int = 0, limit: int = 100):
+#     return db.query(models.Meal).offset(skip).limit(limit).all()
 
+# once we have verified that a username hasn't been created,
+# save the username and a hashed password to the db
 def create_user(db: Session, user: schemas.UserCreate):
     hashed_password = get_password_hash(user.password)
     db_user = models.User(username=user.username, hashed_password=hashed_password)
@@ -28,6 +32,8 @@ def create_user(db: Session, user: schemas.UserCreate):
     db.refresh(db_user)
     return db_user
 
+# create user meals and adds them to the databasee
+# meal is associated with the user_id
 def create_user_meal(db: Session, meal: schemas.MealCreate):
     db_meal = models.Meal(
         user_id = meal.user_id,
@@ -40,9 +46,12 @@ def create_user_meal(db: Session, meal: schemas.MealCreate):
     db.refresh(db_meal)
     return db_meal
    
+# gets all of a user's meals sorted by timestamp
 def get_user_meals(db: Session, user_id: int):
     return db.query(models.Meal).filter(models.Meal.user_id == user_id).order_by(desc(models.Meal.timestamp)).all()
 
+
+# authentication stuff
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto") # wtf does this do
 
 def verify_password(plain_password, hashed_password):
