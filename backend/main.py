@@ -131,3 +131,25 @@ def read_user_meals(db: Session = Depends(get_db), current_user: schemas.User = 
     meals = crud.get_user_meals(db, user_id = user_id)
     return meals
 
+@app.post("/meal-info")
+def search_food_route(query: str):
+    food_data = crud.get_macros(query)
+    if food_data:
+        return food_data
+    else:
+        raise HTTPException(status_code=500, detail="Error occurred while searching L")
+
+# @app.patch("/meals/{meal_id}", response_model=schemas.Meal)
+# def update_meal_calories(
+#     meal_id: int,
+#     meal_update: schemas.MealUpdate,
+#     db: Session = Depends(get_db),
+#     current_user: schemas.User = Depends(get_current_user)
+# ):
+#     meal = crud.get_meal(db, meal_id=meal_id)
+#     if meal is None:
+#         raise HTTPException(status_code=404, detail="Meal not found")
+#     if meal.user_id != current_user.id:
+#         raise HTTPException(status_code=403, detail="Not authorized to update this meal")
+#     updated_meal = crud.update_meal_calories(db, meal=meal, new_calories=meal_update.new_calories)
+#     return updated_meal

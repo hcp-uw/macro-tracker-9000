@@ -2,16 +2,18 @@ import datetime
 from pydantic import BaseModel
 
 class MealBase(BaseModel):
-    id: int
+    user_id: int
     meal_name: str
     calories: int
 
 class MealCreate(MealBase):
     timestamp:datetime
 
+class MealUpdate(MealBase):
+    new_calories: int
+
 class Meal(MealBase):
     id: int
-    user_id: int
     timestamp: datetime
 
     class Config:

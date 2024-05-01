@@ -5,6 +5,9 @@ from . import models, schemas
 
 from passlib.context import CryptContext
 
+import requests
+import os
+
 # this is used every time we authenticate the access token provided by the frontend
 # whenever the frontend makes an endpoint call
 def get_user(db: Session, user_id: int):
@@ -67,3 +70,24 @@ def authenticate_user(db: Session, username: str, password: str):
     if not verify_password(password, user.hashed_password):
         return False
     return user
+
+def get_macros(query):
+    base_url = "https://api.nal.usda.gov/fdc/v1/foods/search"
+    api_key = os.getenv("FOODDATA_API_KEY")
+
+    params = {
+        "api_key" : api_key,
+        "query" : query,
+        "dataType" : "Survey (FNDDS)",
+        "pageSize" : 1,
+        "pageNumber" : 1
+    }
+
+    try:
+        response = requests.get(base_url, params=params)
+        response.raise_for_status()
+        data=response.json()
+        return data
+    except requests.exceptions.RequestException as e:
+        print("erm... error while making API request!", e)
+        return None
